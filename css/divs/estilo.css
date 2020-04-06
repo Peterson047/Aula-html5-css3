@@ -1,0 +1,52 @@
+.bloco {
+    /*   display: flex; /* posiciona um elemento do lado do outro*/
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.pares {
+
+    border: 2px solid #1b1b1b;
+    /* Borda da div*/
+    padding: 5px;
+    /* espaçamento dos cantos*/
+    border-radius: 7px;
+    /* arredondamento da borda*/
+    background-color: #55555550;
+    /* cor de fundo*/
+    margin: 5px;
+    /* Distancia entre elementos*/
+    padding: center;
+}
+
+#titulo {
+    margin: 28px;
+    border-radius: 8px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #292929;
+}
+.menu{
+    list-style: none;
+    border: 2px solid #000;
+    border-radius: 6px;
+    padding: 0px;
+    background-color: #a490ff;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu ul li {
+    display: inline;
+    background-color: white;
+    padding:8px;
+    border-radius: 7px;
+    
+}
+.menu ul li a{
+    font-family: 'Noto Serif', serif;
+}
